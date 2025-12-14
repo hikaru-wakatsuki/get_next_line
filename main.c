@@ -6,7 +6,7 @@
 /*   By: hwakatsu <hwakatsu@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 23:27:42 by hwakatsu          #+#    #+#             */
-/*   Updated: 2025/12/09 20:05:37 by hwakatsu         ###   ########.fr       */
+/*   Updated: 2025/12/14 13:48:45 by hwakatsu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,9 @@ int	main(void)
 	printf("\n=== FINISHED ===\n");
 	return (0);
 }
+
+// #include "get_next_line_bonus.h"
+// #include <stdio.h>
 
 // int	main(void)
 // {
