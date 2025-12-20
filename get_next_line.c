@@ -6,7 +6,7 @@
 /*   By: hwakatsu <hwakatsu@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 19:05:36 by hwakatsu          #+#    #+#             */
-/*   Updated: 2025/12/09 19:36:27 by hwakatsu         ###   ########.fr       */
+/*   Updated: 2025/12/14 17:56:18 by hwakatsu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ static char	*read_until_newline(int fd, char *content)
 	bytes = 1;
 	while (!ft_strchr(content, '\n') && bytes > 0)
 	{
-		bytes = read(fd, buf, sizeof(char) * BUFFER_SIZE);
+		bytes = read(fd, buf, BUFFER_SIZE);
 		if (bytes < 0)
 			return (free(buf), free(content), NULL);
 		buf[bytes] = '\0';
